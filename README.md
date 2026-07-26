@@ -18,6 +18,7 @@ Mettre en pratique les compétences d'un testeur logiciel : conception de scéna
 
 - **Python 3.14**
 - **Playwright** (pytest-playwright)
+- **Selenium**
 - **pytest**
 
 ## 🌐 Site testé
@@ -32,6 +33,8 @@ Mettre en pratique les compétences d'un testeur logiciel : conception de scéna
 | `test_login_locked_out_user` | Vérifie qu'un message d'erreur explicite s'affiche pour un compte bloqué |
 | `test_add_product_to_cart` | Vérifie qu'un produit ajouté au panier met bien à jour le badge du panier |
 | `test_checkout_full_flow` | Parcours complet : connexion → ajout au panier → checkout → confirmation de commande |
+| `test_login_standard_user_selenium` | Vérifie la connexion valide avec Selenium (framework alternatif) |
+| `test_login_locked_out_user_selenium` | Vérifie le cas d'erreur avec Selenium |
 
 ## 🚀 Comment lancer les tests
 
@@ -57,7 +60,9 @@ Mettre en pratique les compétences d'un testeur logiciel : conception de scéna
 - [x] Ajouter des tests sur le panier et le processus de commande (checkout)
 - [x] Restructurer le code en Page Object Model (POM)
 - [ ] Mettre en place une CI/CD avec GitHub Actions
-- [ ] Ajouter des tests avec Selenium en complément de Playwright
+- [x] Ajouter des tests avec Selenium en complément de Playwright
+
+Sauvegarde, puis :
 
 ## 👤 Auteure
 
