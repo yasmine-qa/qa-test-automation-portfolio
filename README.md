@@ -68,10 +68,9 @@ En complément de l'automatisation, ce projet documente une démarche de test ma
 
 - [x] Ajouter des tests sur le panier et le processus de commande (checkout)
 - [x] Restructurer le code en Page Object Model (POM)
-- [ ] Mettre en place une CI/CD avec GitHub Actions
+- [x] Mettre en place une CI/CD avec GitHub Actions
 - [x] Ajouter des tests avec Selenium en complément de Playwright
 
-Sauvegarde, puis :
 
 ## 👤 Auteure
 
