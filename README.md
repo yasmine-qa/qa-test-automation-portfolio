@@ -53,7 +53,7 @@ Mettre en pratique les compétences d'un testeur logiciel : conception de scéna
 ## 📌 Prochaines étapes
 
 - [x] Ajouter des tests sur le panier et le processus de commande (checkout)
-- [ ] Restructurer le code en Page Object Model (POM)
+- [x] Restructurer le code en Page Object Model (POM)
 - [ ] Mettre en place une CI/CD avec GitHub Actions
 - [ ] Ajouter des tests avec Selenium en complément de Playwright
 
