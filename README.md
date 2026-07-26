@@ -28,6 +28,8 @@ Mettre en pratique les compétences d'un testeur logiciel : conception de scéna
 |------|-------------|
 | `test_login_standard_user` | Vérifie qu'un utilisateur valide accède bien à la page d'inventaire après connexion |
 | `test_login_locked_out_user` | Vérifie qu'un message d'erreur explicite s'affiche pour un compte bloqué |
+| `test_add_product_to_cart` | Vérifie qu'un produit ajouté au panier met bien à jour le badge du panier |
+| `test_checkout_full_flow` | Parcours complet : connexion → ajout au panier → checkout → confirmation de commande |
 
 ## 🚀 Comment lancer les tests
 
@@ -50,7 +52,7 @@ Mettre en pratique les compétences d'un testeur logiciel : conception de scéna
 
 ## 📌 Prochaines étapes
 
-- [ ] Ajouter des tests sur le panier et le processus de commande (checkout)
+- [x] Ajouter des tests sur le panier et le processus de commande (checkout)
 - [ ] Restructurer le code en Page Object Model (POM)
 - [ ] Mettre en place une CI/CD avec GitHub Actions
 - [ ] Ajouter des tests avec Selenium en complément de Playwright
