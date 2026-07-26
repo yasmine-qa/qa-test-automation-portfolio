@@ -1,5 +1,7 @@
 # QA Test Automation Portfolio
 
+[![Tests automatisés](https://github.com/yasmine-qa/qa-test-automation-portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/yasmine-qa/qa-test-automation-portfolio/actions/workflows/ci.yml)
+
 Projet d'automatisation de tests avec **Playwright** (Python), réalisé dans le cadre de ma formation en test logiciel / QA.
 
 ## 📖 Contexte et démarche
