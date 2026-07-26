@@ -36,6 +36,15 @@ Mettre en pratique les compétences d'un testeur logiciel : conception de scéna
 | `test_login_standard_user_selenium` | Vérifie la connexion valide avec Selenium (framework alternatif) |
 | `test_login_locked_out_user_selenium` | Vérifie le cas d'erreur avec Selenium |
 
+## 📋 Documentation du cycle de test
+
+En complément de l'automatisation, ce projet documente une démarche de test manuel complète :
+
+- **[User Stories](docs/user-stories/user-stories.md)** — Besoins fonctionnels et critères d'acceptation
+- **[Cas de test — Connexion](docs/test-cases/test-cases-login.md)**
+- **[Cas de test — Panier & Checkout](docs/test-cases/test-cases-checkout.md)**
+- **[Bug Report #001](docs/bug-reports/bug-report-001.md)** — Anomalie détectée via test exploratoire
+
 ## 🚀 Comment lancer les tests
 
 1. Cloner le repo
