@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Fichiers générés par les tests
+report.html
+playwright-report/
+test-results/
+.pytest_cache/
+
+# Environnement virtuel Python
+.venv/
+venv/
+
+# Cache Python
+__pycache__/
+*.pyc
